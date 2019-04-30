@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324E6B1B22733BE100E934CC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E6B1A22733BE100E934CC /* ViewController2.swift */; };
+		324E6B1D22733BF400E934CC /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E6B1C22733BF400E934CC /* ViewController3.swift */; };
 		32B026982270A09800D87122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B026972270A09800D87122 /* AppDelegate.swift */; };
 		32B0269A2270A09800D87122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B026992270A09800D87122 /* ViewController.swift */; };
 		32B0269D2270A09800D87122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B0269B2270A09800D87122 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		324E6B1A22733BE100E934CC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		324E6B1C22733BF400E934CC /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		32B026942270A09800D87122 /* Pick Up Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick Up Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B026972270A09800D87122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32B026992270A09800D87122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				32B026972270A09800D87122 /* AppDelegate.swift */,
 				32B026992270A09800D87122 /* ViewController.swift */,
+				324E6B1A22733BE100E934CC /* ViewController2.swift */,
+				324E6B1C22733BF400E934CC /* ViewController3.swift */,
 				32B0269B2270A09800D87122 /* Main.storyboard */,
 				32B026A12270A09900D87122 /* Assets.xcassets */,
 				32B026A32270A09900D87122 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324E6B1D22733BF400E934CC /* ViewController3.swift in Sources */,
 				32B0269A2270A09800D87122 /* ViewController.swift in Sources */,
+				324E6B1B22733BE100E934CC /* ViewController2.swift in Sources */,
 				32B026982270A09800D87122 /* AppDelegate.swift in Sources */,
 				32B026A02270A09800D87122 /* Pick_Up_Game.xcdatamodeld in Sources */,
 			);
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNSKQS565V;
 				INFOPLIST_FILE = "Pick Up Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNSKQS565V;
 				INFOPLIST_FILE = "Pick Up Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
