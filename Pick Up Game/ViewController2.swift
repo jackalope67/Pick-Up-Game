@@ -9,13 +9,15 @@
 import UIKit
 
 class ViewController2: UIViewController {
-
+    var Nickname: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
 
     }
     
-
+    @IBAction func newGame(_ sender: UIBarButtonItem) {
+    }
+    
 
 }
