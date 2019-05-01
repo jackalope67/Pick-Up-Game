@@ -1,19 +1,16 @@
-//
-//  ViewController.swift
-//  Pick Up Game
-//
-//  Created by JACK FLYNN on 4/24/19.
-//  Copyright © 2019 clc.Flynn. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var Name: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    @IBAction func Nextpage(_ sender: UIButton) {
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewController2
+        nvc.Nickname = Name
 
-
+    }
 }
-
