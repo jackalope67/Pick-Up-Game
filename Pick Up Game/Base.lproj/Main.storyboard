@@ -101,7 +101,7 @@
                     <toolbarItems>
                         <barButtonItem title="Add New Game" width="608" id="D8n-Q0-HYk">
                             <connections>
-                                <action selector="newGame:" destination="OQE-Qo-B0P" id="yjZ-xO-Zgx"/>
+                                <action selector="addGameButt:" destination="OQE-Qo-B0P" id="tBd-gp-gDK"/>
                                 <segue destination="SVr-3F-f2z" kind="show" id="xi2-cZ-m4g"/>
                             </connections>
                         </barButtonItem>

@@ -17,5 +17,14 @@ class ViewController2: UIViewController {
         cell.textLabel?.text = Games[indexPath.row]
         return cell
     }
-
+    @IBAction func addGameButt(_ sender: Any) {
+        performSegue(withIdentifier: "Segue1", sender: nil)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let word = thingText.text
+        let nvc = segue.destination as! ViewController2
+        nvc.text = word!
+        
+    }
 }

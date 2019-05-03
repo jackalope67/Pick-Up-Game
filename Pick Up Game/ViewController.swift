@@ -21,4 +21,7 @@ class ViewController: UIViewController {
         nvc.Nickname = Name
 
     }
+
+    
+    }
 }
