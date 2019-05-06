@@ -71,15 +71,15 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
    wheretext.text = wherePlay
         performSegue(withIdentifier: "Segue1", sender: nil)
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?)
      {
     let word = wheretext.text
     let nvc = segue.destination as! ViewController2
-    nvc.text = word!
+    nvc.yes = word!
    
     
     }
-    
+ 
 
     
 }
