@@ -1,9 +1,10 @@
 import UIKit
-var Games = ["Fake Game"]
 
 
 class ViewController2: UIViewController {
     var Nickname: UITextField!
+    var Games = ["Fake Game"]
+    var yes: String!
     override func viewDidLoad() {
         super.viewDidLoad()
         var retrieve = UserDefaults.standard
