@@ -75,11 +75,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
      {
     let word = wheretext.text
     let nvc = segue.destination as! ViewController2
-    nvc.text = word!
-   
+    nvc. = word!
     
     }
-    
-
-    
 }
