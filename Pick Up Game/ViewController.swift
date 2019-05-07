@@ -10,9 +10,6 @@ class ViewController: UIViewController {
     @IBAction func Nextpage(_ sender: UIButton) {
         if (Name == nil){
           Warning.text = "Please Enter Your Username"
-        }
-        else
-        {
             
         }
     }
