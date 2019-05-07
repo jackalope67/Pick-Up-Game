@@ -5,6 +5,7 @@ class ViewController2: UIViewController {
     var Nickname: UITextField!
     var Games = ["Fake Game"]
     var yes: String!
+    var no: String!
     override func viewDidLoad() {
         super.viewDidLoad()
         var retrieve = UserDefaults.standard
