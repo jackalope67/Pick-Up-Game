@@ -30,8 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start making your game"/>
                                 <connections>
-                                    <action selector="Nextpage:" destination="l2G-Jp-naO" eventType="touchUpInside" id="2An-Rp-RNa"/>
-                                    <segue destination="OQE-Qo-B0P" kind="presentation" id="SHF-ui-KWO"/>
+                                    <segue destination="OQE-Qo-B0P" kind="presentation" identifier="firstsegue" id="SHF-ui-KWO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTi-Im-H4M">
