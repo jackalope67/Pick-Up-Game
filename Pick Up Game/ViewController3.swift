@@ -6,7 +6,7 @@
     @IBOutlet weak var wheretext: UITextField!
     @IBOutlet weak var whatSportPick: UIPickerView!
     var sports = ["Basketball","Football","Baseball","Hockey","Volleyball","Spikeball"]
-    var whatSport = ""
+    var whatSport: String!
     var wherePlay = ""
     var datePicker: UIDatePicker = UIDatePicker()
     
@@ -67,6 +67,11 @@
     let word = wheretext.text
     let nvc = segue.destination as! ViewController2
     nvc.yes = word!
+    nvc.no = whatSport
+        
+        
     }
 
+        
+        
 }
