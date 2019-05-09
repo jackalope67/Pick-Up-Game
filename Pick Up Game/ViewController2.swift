@@ -19,6 +19,7 @@ override func viewDidLoad() {
         let cell = tableView.dequeueReusableCell(withIdentifier: "White")!
         cell.textLabel?.text = yes
         return cell
+    
     }
   
     

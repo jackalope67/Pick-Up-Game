@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="upA-Vy-E6E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GCW-94-Jot">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -60,9 +60,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itt-XI-r7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631.8840579710147" y="132.58928571428572"/>
+            <point key="canvasLocation" x="2542.0289855072465" y="132.58928571428572"/>
         </scene>
-        <!--View Controller2-->
+        <!--Active Games-->
         <scene sceneID="VRE-tq-bRY">
             <objects>
                 <viewController id="OQE-Qo-B0P" customClass="ViewController2" customModule="Pick_Up_Game" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,11 +70,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOn-tH-A7c">
-                                <rect key="frame" x="97" y="32" width="221" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZFX-e8-yVa">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -94,19 +89,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LGS-KZ-nLN"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Add New Game" width="463" id="D8n-Q0-HYk">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Active Games" id="qX0-ed-ees">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oAY-Td-cVG">
                             <connections>
-                                <action selector="addGameButt:" destination="OQE-Qo-B0P" id="tBd-gp-gDK"/>
-                                <segue destination="SVr-3F-f2z" kind="show" id="xi2-cZ-m4g"/>
+                                <segue destination="SVr-3F-f2z" kind="show" id="orr-ra-n2S"/>
                             </connections>
                         </barButtonItem>
-                    </toolbarItems>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBr-wb-TlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2410" y="133"/>
+            <point key="canvasLocation" x="3318.840579710145" y="132.58928571428572"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="krn-5H-X1B">
@@ -174,31 +169,30 @@
                     <connections>
                         <outlet property="whatSportPick" destination="WGy-e4-4Ux" id="8Oh-0g-sad"/>
                         <outlet property="whenPlaying" destination="q9C-pO-0Kv" id="kSD-Mf-EAQ"/>
-                        <outlet property="whereVar" destination="eFu-iX-HZk" id="fPc-xk-wl1"/>
                         <outlet property="wheretext" destination="eFu-iX-HZk" id="54D-Fx-4q5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Neu-s5-Kg7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3196" y="133"/>
+            <point key="canvasLocation" x="4105.7971014492759" y="132.58928571428572"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="5E5-KF-PhT">
+        <scene sceneID="E2J-Fz-sVW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="upA-Vy-E6E" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GCW-94-Jot" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fyk-da-AfE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BAP-x5-qIJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="l2G-Jp-naO" kind="relationship" relationship="rootViewController" id="TSu-5S-bic"/>
+                        <segue destination="l2G-Jp-naO" kind="relationship" relationship="rootViewController" id="ar1-af-gdj"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dqn-GZ-0SN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="70a-kW-qOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="832.79999999999995" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1631.8840579710147" y="132.58928571428572"/>
         </scene>
     </scenes>
 </document>
