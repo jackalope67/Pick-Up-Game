@@ -26,17 +26,17 @@
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Posiiton date picket within a view
+    // Posiiton date picket within a view
     datePicker.frame = CGRect(x: 10, y: 50, width: self.view.frame.width, height: 200)
         
-        // Set some of UIDatePicker properties
+    // Set some of UIDatePicker properties
     datePicker.timeZone = NSTimeZone.local
     datePicker.backgroundColor = UIColor.white
         
-        // Add an event to call onDidChangeDate function when value is changed.
+    // Add an event to call onDidChangeDate function when value is changed.
     datePicker.addTarget(self, action: #selector(ViewController3.datePickerValueChanged(_:)), for: .valueChanged)
         
-        // Add DataPicker to the view
+    // Add DataPicker to the view
     self.view.addSubview(datePicker)
         
     }
@@ -60,7 +60,7 @@
     }
     @IBAction func startGameButton(_ sender: Any) {
     wheretext.text = wherePlay
-    performSegue(withIdentifier: "Segue1", sender: nil)
+    performSegue(withIdentifier: "Segue2", sender: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
      {
@@ -69,9 +69,5 @@
     nvc.yes = word!
     nvc.no = whatSport
         
-        
-    }
-
-        
-        
+  }
 }
